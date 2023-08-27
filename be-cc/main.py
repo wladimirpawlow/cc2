@@ -1,3 +1,1 @@
-
-
-print('ewwa')
+print('stert EWWAY')
