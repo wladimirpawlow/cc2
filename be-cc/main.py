@@ -1,1 +1,1 @@
-print('stert EWWAY')
+print('start EWWAY')
