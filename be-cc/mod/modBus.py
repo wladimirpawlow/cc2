@@ -1,12 +1,13 @@
 from pymodbus.client import ModbusTcpClient
 
-client = ModbusTcpClient('127.0.0.1')
+client = ModbusTcpClient('10.10.100.100', 8899)
 
 def mbRead():
     try:
         client.connect()
-        result = client.read_coils(1,1)
-        print(result.bits[0])
+        result = client.read_holding_registers(0, 5,  slave=1)
+        print(result.registers)
+
     except Exception :
         print('something unknown happened')
     finally:
