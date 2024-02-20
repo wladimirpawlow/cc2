@@ -1,4 +1,4 @@
-<<< ---enjoy wAOndering world around you--- >>>
+<<< ---enjoy world--- >>>
 
 links
 1. modBusLib - https://github.com/pymodbus-dev/pymodbus
